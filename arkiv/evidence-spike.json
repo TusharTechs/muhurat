@@ -1,0 +1,20 @@
+{
+  "spike": "step 1: seal on quicknet, publish on Tiramisu, open at the round",
+  "at": "2026-10-17T19:32:11.465Z",
+  "chainId": 7738577,
+  "setter": "0x518dFCA1563A3C64a397509E8C3F71E3F014bA53",
+  "exam": "spike-202610171930",
+  "quicknetRound": 33154054,
+  "opensAt": "2026-10-17T19:32:06.000Z",
+  "entityKey": "0xc7656e1a51af748dfd430c1740b2514b3632a5cd1815adb80af383726787cda7",
+  "txHash": "0xa8b1591ebb053eb36eb0b47198534da8d85e572cf1a510fbf9eb64deb922e09b",
+  "explorer": "https://tiramisu.explorer.arkiv.network/tx/0xa8b1591ebb053eb36eb0b47198534da8d85e572cf1a510fbf9eb64deb922e09b",
+  "checks": {
+    "creatorIsSetter": true,
+    "ownerIsDead": true,
+    "readonly": true,
+    "patchRejected": "Transaction failed: entity 0xc7656e1a…87cda7 is owned by 0x000000000000000000000000000000000000dEaD, not 0x518dFCA1563A3C64a397509E8C3F71E3F014bA53",
+    "earlyOpen": "It's too early to decrypt the ciphertext - decryptable at round 33154054",
+    "openedMatches": true
+  }
+}

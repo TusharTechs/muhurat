@@ -1,0 +1,10 @@
+node_modules/
+.env
+.keys.json
+dist/
+.env.mock
+video-build/
+muhurat-demo*.mp4
+.claude/
+e2e-shots/
+HANDOFF.md
