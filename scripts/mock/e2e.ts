@@ -13,7 +13,7 @@ mkdirSync(out, { recursive: true })
 const BELL_IN = 50
 const children: ChildProcess[] = []
 const start = (cmd: string, args: string[], env: Record<string, string> = {}) => {
-  const child = spawn(cmd, args, { env: { ...process.env, ...env }, stdio: ["ignore", "pipe", "pipe"] })
+  const child = spawn(cmd, args, { env: { ...process.env, ...env }, stdio: ["ignore", "pipe", "pipe"], shell: process.platform === "win32" }) // npx is npx.cmd on Windows
   child.stderr?.on("data", (d) => process.env.E2E_DEBUG && process.stderr.write(d))
   children.push(child)
   return child

@@ -33,7 +33,7 @@ const WORK = resolve("video-build")
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 const children: ChildProcess[] = []
 const run = (cmd: string, args: string[], env: Record<string, string> = {}) => {
-  const child = spawn(cmd, args, { env: { ...process.env, ...env }, stdio: ["ignore", "pipe", "pipe"] })
+  const child = spawn(cmd, args, { env: { ...process.env, ...env }, stdio: ["ignore", "pipe", "pipe"], shell: process.platform === "win32" }) // npx is npx.cmd on Windows
   child.stderr?.on("data", (d) => process.env.VIDEO_DEBUG && process.stderr.write(d))
   children.push(child)
   return child

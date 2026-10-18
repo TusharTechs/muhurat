@@ -31,7 +31,7 @@ Muhurat removes that thing:
 
 ### Arkiv questions
 
-**1. Live app URL:** `<https://…>`
+**1. Live app URL:** https://tushartechs.github.io/muhurat/
 
 **2. Does any team member hold Indian nationality?** Yes
 
