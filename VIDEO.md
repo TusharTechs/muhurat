@@ -44,6 +44,8 @@ npm run video -- --live --repo github.com/YOUR-NAME/muhurat
 | 2:16 | **The bell** in the real app: opened paper, per-centre booklet, leak court, state at the bell, judges' page |
 | 2:45 | CROPS, in one exam · "Arkiv knows when data should die. Muhurat teaches it when data should be born." |
 
+**Published:** https://youtu.be/xWV3aKoWhfo (live Tiramisu footage, narrated with macOS's neural "Aman" en-IN voice via [`scripts/video/voiceover.mjs`](scripts/video/voiceover.mjs)).
+
 ## Optional voiceover
 
 The video works silent apart from its soundtrack: every point is on screen. If you add your voice, read this over it. Times match the timeline above.

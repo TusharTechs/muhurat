@@ -16,7 +16,7 @@
 
 <p align="center">
   <b><a href="https://tushartechs.github.io/muhurat/">Live app</a></b> ·
-  <b><a href="#demo-video">Demo video</a></b> ·
+  <b><a href="https://youtu.be/xWV3aKoWhfo">Demo video</a></b> ·
   <b><a href="https://tushartechs.github.io/muhurat/#/proof">For judges</a></b> ·
   <a href="arkiv/schema.md">Data contract</a> ·
   <a href="arkiv/friction.md">Friction report</a> ·
@@ -32,12 +32,17 @@ Built for **Arkiv: Global Tour Stop** (9 to 18 Oct 2026) on the road to Devcon 8
   <br><sub>Recorded live on Arkiv Tiramisu + drand quicknet: the countdown reaches the bell, the seal cracks, and the paper opens in the browser.</sub>
 </p>
 
+<p align="center">
+  <a href="https://youtu.be/xWV3aKoWhfo"><img src="docs/youtube-thumbnail.jpg" alt="Watch the 3-minute demo on YouTube" width="560"></a>
+  <br><sub>▶ <a href="https://youtu.be/xWV3aKoWhfo">Watch the 3-minute demo</a>: the problem, the idea, and a live bell on Tiramisu.</sub>
+</p>
+
 ## For judges: every link in one place
 
 | What | Link | What you'll find |
 | --- | --- | --- |
 | 🌐 **Live app** | [tushartechs.github.io/muhurat](https://tushartechs.github.io/muhurat/) | A sealed paper rings every two hours through 23 Oct. No wallet needed |
-| 🎬 <a id="demo-video"></a>**Demo video** (2:57) | _YouTube link_ · [script and timeline](VIDEO.md) | The problem, the idea, and a live bell on Tiramisu |
+| 🎬 <a id="demo-video"></a>**Demo video** (2:57) | [youtu.be/xWV3aKoWhfo](https://youtu.be/xWV3aKoWhfo) · [script and timeline](VIDEO.md) | The problem, the idea, and a live bell on Tiramisu |
 | ✅ **For judges page** | [/#/proof](https://tushartechs.github.io/muhurat/#/proof) | Every Arkiv feature we use, with evidence computed live from the RPC, plus a link to the code |
 | 🔎 **Leak checker** | [/#/check](https://tushartechs.github.io/muhurat/#/check) | Paste or screenshot a "leaked paper": fake before the bell, traced to a setter's bank after it |
 | 🧪 **Run your own exam** | [/#/run](https://tushartechs.github.io/muhurat/#/run) | Be the board and the setters with MetaMask and faucet GLM, and watch your own bell |

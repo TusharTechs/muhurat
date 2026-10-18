@@ -33,6 +33,10 @@ Muhurat removes that thing:
 
 **1. Live app URL:** https://tushartechs.github.io/muhurat/
 
+**Demo video (2:57, live on Tiramisu):** https://youtu.be/xWV3aKoWhfo
+
+**Repository:** https://github.com/TusharTechs/muhurat
+
 **2. Does any team member hold Indian nationality?** Yes
 
 **3. Why Arkiv?**
